@@ -1,9 +1,9 @@
 baseurl: "/"
 url: https://www.peculiar.wine
-name: peculiar
-company_name: Peculiar
-full_company_name: Peculiar
-description: Peculiar wine
+name: Peculiar.wine
+company_name: Peculiar.wine
+full_company_name: Peculiar.wine
+description: Peculiar.wine
 
 paginate: 10
 paginate_path: "/writing/page:num"
