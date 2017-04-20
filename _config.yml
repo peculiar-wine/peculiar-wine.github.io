@@ -1,0 +1,21 @@
+baseurl: "/"
+url: https://www.peculiar.wine
+name: peculiar
+company_name: Peculiar
+full_company_name: Peculiar
+description: Peculiar wine
+
+paginate: 10
+paginate_path: "/writing/page:num"
+permalink: "/writing/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+timezone: 'Europe/Lisbon'
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-sass-converter
