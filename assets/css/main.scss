@@ -96,3 +96,30 @@ and (orientation : portrait) {
       }
   }
 }
+
+/*
+ * iPhone 5 & 5S in portrait
+*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 320px;
+    margin-top: -160px;
+    margin-left: -160px;
+  }
+  .logo {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 100px;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+  }
+}
